@@ -1,6 +1,8 @@
 # Android Vendor Customizations
 We present a scalable pipeline for extracting Android Vendor/Manufacturer introduced API level customizations to Java and Native level packages. Currently the scope is limited to Android networking stack.
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 ## Methodology Overview
 
 This project analyzes vendor customizations in Android's cryptographic and networking components by comparing vendor-specific implementations against the corresponding AOSP baseline. The methodology follows a structured pipeline that includes firmware extraction, version detection, differential analysis, and customization impact assessment. 
@@ -60,3 +62,14 @@ Make sure your machine meets the following requirements:
 4. Review Results:
    
   - All results will be stored in the diffing_results/ folder under the name of your input folder.
+
+
+## License
+
+Licensed under the  [GNU GPLv3](LICENSE) license.
+
+## Funding support
+
+Part of this research was supported by the Spanish National Cybersecurity Institute (INCIBE) under <i>Proyectos Estratégicos de Ciberseguridad -- CIBERSEGURIDAD EINA UNIZAR</i> and by the Recovery, Transformation and Resilience Plan funds, financed by the European Union (Next Generation).
+
+![Funding logo](misc/images/INCIBE_logos.jpg)
